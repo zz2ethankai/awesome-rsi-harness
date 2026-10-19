@@ -1,0 +1,29 @@
+{
+  "updated_on": "2026-10-19",
+  "definition": "User-defined embodied capability map. L3 describes co-evolution of orchestration and execution skills, not proof of recursively improving the improver. Coordinates are qualitative layout positions, not scores.",
+  "levels": [
+    {"id":"L0","name":"L0 当前任务内适应","description":"只改变当前执行状态","color":"#3386E5"},
+    {"id":"L1","name":"L1 持久能力积累","description":"保留技能、模型或记忆","color":"#23B96E"},
+    {"id":"L2","name":"L2 上层编排与程序自改进","description":"底层执行器固定，修改上层程序","color":"#F0A511"},
+    {"id":"L3","name":"L3 Harness 与执行器协同演化","description":"相关路径：同时覆盖编排与执行能力更新","color":"#E95161"},
+    {"id":"L4","name":"L4 开放式具身 RSI","description":"当前清单尚无充分证据支持的条目","color":"#B32032"}
+  ],
+  "papers": [
+    {"id":"2603.22435","level":"L1","label":"CaP-X (Agent0)","x":660,"y":596,"width":230},
+    {"id":"2602.12063","level":"L1","label":"VLAW","x":980,"y":596,"width":120},
+    {"id":"2609.38905","level":"L1","label":"EmbodiRSI","x":540,"y":660,"width":145},
+    {"id":"2607.28251","level":"L1","label":"Criticality WM","x":735,"y":660,"width":175},
+    {"id":"2610.15782","level":"L1","label":"Nav. Bootstrapping","x":960,"y":660,"width":155},
+    {"id":"2607.00272","level":"L2","label":"ASPIRE","x":665,"y":462,"width":135},
+    {"id":"2606.19419","level":"L2","label":"Playful","x":860,"y":462,"width":110},
+    {"id":"2610.02204","level":"L2","label":"RPG","x":1020,"y":462,"width":75},
+    {"id":"2610.22496","level":"L2","label":"RAX","x":665,"y":502,"width":135},
+    {"id":"2610.23479","level":"L2","label":"HexaShell","x":860,"y":502,"width":180},
+    {"id":"2610.21453","level":"L2","label":"CarryOn","x":665,"y":542,"width":135},
+    {"id":"2610.08432","level":"L2","label":"EMHO","x":860,"y":542,"width":180},
+    {"id":"2610.12424","level":"L3","label":"RoboRSI：技能实现与接口修复","x":682,"y":318,"width":405},
+    {"id":"2609.32862","level":"L3","label":"RoboFoundry：层级技能与规则","x":682,"y":346,"width":405},
+    {"id":"2610.20474","level":"L3","label":"AdaRSI：编排与子策略更新","x":682,"y":374,"width":405},
+    {"id":"2610.09228","level":"L3","label":"Robo-COP：编排记忆与策略更新","x":682,"y":402,"width":405}
+  ]
+}

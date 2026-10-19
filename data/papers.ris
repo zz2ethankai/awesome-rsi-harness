@@ -1,0 +1,526 @@
+TY  - RPRT
+TI  - CaP-X: A Framework for Benchmarking and Improving Coding Agents for Robot Manipulation
+UR  - https://arxiv.org/abs/2603.22435
+L1  - https://arxiv.org/pdf/2603.22435
+DA  - 2026/03/23
+AN  - arXiv:2603.22435
+KW  - RSI
+KW  - Embodied RSI
+N1  - 地图仅定位CaP-Agent0：工具库可保留，但没有持续自进化闭环证据。CaP-RL为另一分支，不把整个CaP-X称为无学习。
+ER  -
+
+TY  - RPRT
+TI  - ASPIRE: Agentic /Skills Discovery for Robotics
+UR  - https://arxiv.org/abs/2607.00272
+L1  - https://arxiv.org/pdf/2607.00272
+DA  - 2026/06/30
+AN  - arXiv:2607.00272
+KW  - RSI
+KW  - Embodied RSI
+N1  - 执行轨迹指导修复并沉淀可复用技能。源任务数不等于技能条目数，代码与经验积累不等于优化器自身演化。
+ER  -
+
+TY  - RPRT
+TI  - Playful Agentic Robot Learning
+UR  - https://arxiv.org/abs/2606.19419
+L1  - https://arxiv.org/pdf/2606.19419
+DA  - 2026/06/17
+AN  - arXiv:2606.19419
+KW  - RSI
+KW  - Embodied RSI
+N1  - 自主练习后冻结技能库测试，区分练习收益与单次测试重试。改进规则跨域迁移尚未充分隔离。
+ER  -
+
+TY  - RPRT
+TI  - Reconstruct, Practice, Go Real: Guided Self-Improvement for Embodied Agents
+UR  - https://arxiv.org/abs/2610.02204
+L1  - https://arxiv.org/pdf/2610.02204
+DA  - 2026/10/01
+AN  - arXiv:2610.02204
+KW  - RSI
+KW  - Embodied RSI
+N1  - 重建与练习更新程序技能，开发保留任务参与门控。真机设置含校准，不能称为零工程迁移。
+ER  -
+
+TY  - RPRT
+TI  - AdaRSI: On-Demand Recursive Self-Improvement for Embodied Agents
+UR  - https://arxiv.org/abs/2610.20474
+L1  - https://arxiv.org/pdf/2610.20474
+DA  - 2026/10/14
+AN  - arXiv:2610.20474
+KW  - RSI
+KW  - Embodied RSI
+N1  - 先修编排，再按需更新子策略。纯仿真，训练GPU节省不能代替全成本比较。L3相关路径不等于严格递归改进已证实。
+ER  -
+
+TY  - RPRT
+TI  - Co-Evolving Robot Orchestrators and Policies through Deployment
+UR  - https://arxiv.org/abs/2610.09228
+L1  - https://arxiv.org/pdf/2610.09228
+DA  - 2026/10/06
+AN  - arXiv:2610.09228
+KW  - RSI
+KW  - Embodied RSI
+N1  - Robo-COP共同更新策略权重与编排记忆并检查候选。旧技能低曝光不能阻止采纳，门控不构成全技能无回归保证。
+ER  -
+
+TY  - RPRT
+TI  - HexaShell: A Thin Harness for Exploring the Limits of VLM Agents as Robot Coding Agents
+UR  - https://arxiv.org/abs/2610.23479
+L1  - https://arxiv.org/pdf/2610.23479
+DA  - 2026/10/16
+AN  - arXiv:2610.23479
+KW  - RSI
+KW  - Embodied RSI
+N1  - 失败驱动任务工具修复；harness及共享工具不可改。冻结工具在同seed新布局测试，不等于跨域改进器迁移；开发继承旧depth工具，部分任务有checker说明。
+ER  -
+
+TY  - RPRT
+TI  - EmbodiRSI: Recursive Self-Improvement for Data-Efficient Robot Adaptation
+UR  - https://arxiv.org/abs/2609.38905
+L1  - https://arxiv.org/pdf/2609.38905
+DA  - 2026/09/30
+AN  - arXiv:2609.38905
+KW  - RSI
+KW  - Embodied RSI
+N1  - 失败归因调整采样并更新场景策略。实际训练只保留最终成功轨迹；累计400条不是全部采集成本。是失败驱动课程的直接近邻，尚非冻结改进器跨域迁移。
+ER  -
+
+TY  - RPRT
+TI  - Policy-Level Recursive Self-Improvement for Embodied AI with a Criticality World Model
+UR  - https://arxiv.org/abs/2607.28251
+L1  - https://arxiv.org/pdf/2607.28251
+DA  - 2026/07/30
+AN  - arXiv:2607.28251
+KW  - RSI
+KW  - Embodied RSI
+N1  - 风险预测驱动采样与专家训练，部署保留名义策略并门控；路由收益不能全归训练。需随机采样加同门控、冻结预测器对照，非生成式动力学世界模型。
+ER  -
+
+TY  - RPRT
+TI  - Scaling Online Exploration for Robot Agents
+UR  - https://arxiv.org/abs/2610.22496
+L1  - https://arxiv.org/pdf/2610.22496
+DA  - 2026/10/15
+AN  - arXiv:2610.22496
+KW  - RSI
+KW  - Embodied RSI
+N1  - RAX：在线探索后保留并复用感知、规划和执行程序。底座与backend固定；多本体部署不等于改进器跨域迁移。真机部分有人工指导，需区别开发过程与冻结测试。
+ER  -
+
+TY  - RPRT
+TI  - RoboRSI: Stable, efficient, and reusable robot self-evolution in complex real-world environments
+UR  - https://arxiv.org/abs/2610.12424
+L1  - https://arxiv.org/pdf/2610.12424
+DA  - 2026/10/08
+AN  - arXiv:2610.12424
+KW  - RSI
+KW  - Embodied RSI
+N1  - TSR以接口契约约束责任分支修复，验证后发布并固化复合技能。104轮真机为有人引导的开发记录，不是冻结策略104次独立测试；LIBERO-Plus另测冻结库迁移。
+ER  -
+
+TY  - RPRT
+TI  - RoboFoundry: System-as-Policy Evolution for Self-Learning Embodied Agents
+UR  - https://arxiv.org/abs/2609.32862
+L1  - https://arxiv.org/pdf/2609.32862
+DA  - 2026/09/26
+AN  - arXiv:2609.32862
+KW  - RSI
+KW  - Embodied RSI
+N1  - 共同更新context与skill系统，将任务修复抽象为通用规则。跨任务promotion使用历史轨迹上的修复提议与模型评分，不等于候选修复经过独立物理复执行。
+ER  -
+
+TY  - RPRT
+TI  - Self-Evolving Agent Harness
+UR  - https://arxiv.org/abs/2610.18813
+L1  - https://arxiv.org/pdf/2610.18813
+DA  - 2026/10/13
+AN  - arXiv:2610.18813
+KW  - RSI
+KW  - Surveys
+N1  - 持久harness演化的定义及有条件验证框架；不把理论保证当实证结果。
+ER  -
+
+TY  - RPRT
+TI  - Harness^2: Recursive Agent Harnessing for an Open World
+UR  - https://arxiv.org/abs/2610.14224
+L1  - https://arxiv.org/pdf/2610.14224
+DA  - 2026/10/09
+AN  - arXiv:2610.14224
+KW  - RSI
+KW  - General Methods
+N1  - 当前任务搜索与改进库跨任务复用分开；部分复用测试为retrospective。
+ER  -
+
+TY  - RPRT
+TI  - SwarmRSI: Recursive Self-Improvement through Evolving Scientific Agent Swarm
+UR  - https://arxiv.org/abs/2610.20431
+L1  - https://arxiv.org/pdf/2610.20431
+DA  - 2026/10/14
+AN  - arXiv:2610.20431
+KW  - RSI
+KW  - General Methods
+N1  - 假设、代码及证据继承；跨任务12tasks×3seeds，源任务量与代数混杂。
+ER  -
+
+TY  - RPRT
+TI  - Video-RSI: Recursive Self-Improvement of Video Understanding Agents via Harness Evolution
+UR  - https://arxiv.org/abs/2609.37950
+L1  - https://arxiv.org/pdf/2609.37950
+DA  - 2026/09/29
+AN  - arXiv:2609.37950
+KW  - RSI
+KW  - General Methods
+N1  - 主动补充视频观察支撑失败诊断，核查后续新任务效用与视觉成本。
+ER  -
+
+TY  - RPRT
+TI  - Recurrent Harness for Agentic Continual Learning
+UR  - https://arxiv.org/abs/2610.12668
+L1  - https://arxiv.org/pdf/2610.12668
+DA  - 2026/10/08
+AN  - arXiv:2610.12668
+KW  - RSI
+KW  - General Methods
+N1  - 修订持久反思状态，不因此认定更新规则本身演化。
+ER  -
+
+TY  - RPRT
+TI  - VIEWCRAFT: Evolving What Multimodal Agents See and How They Read It
+UR  - https://arxiv.org/abs/2610.15915
+L1  - https://arxiv.org/pdf/2610.15915
+DA  - 2026/10/11
+AN  - arXiv:2610.15915
+KW  - RSI
+KW  - General Methods
+N1  - 证据界面与阅读程序联合演化；配对保留与迁移实验待细读。
+ER  -
+
+TY  - RPRT
+TI  - Cortex: Measurement-Gated Evolution and Pruning of Coding-Agent Skills and Rules
+UR  - https://arxiv.org/abs/2610.14216
+L1  - https://arxiv.org/pdf/2610.14216
+DA  - 2026/10/09
+AN  - arXiv:2610.14216
+KW  - RSI
+KW  - General Methods
+N1  - 重复比较后保留规则；未使用的有害技能未被接受不等于成功检出有害性。
+ER  -
+
+TY  - RPRT
+TI  - ClawLoop: Self-Improving Agents via Harness-Native Training Loop
+UR  - https://arxiv.org/abs/2610.14118
+L1  - https://arxiv.org/pdf/2610.14118
+DA  - 2026/10/09
+AN  - arXiv:2610.14118
+KW  - RSI
+KW  - General Methods
+N1  - 诊断反馈影响下一轮任务合成；待同训练与搜索成本对照。
+ER  -
+
+TY  - RPRT
+TI  - Terminal-RSI: Recursive Self-Improving Terminal Agents via Recursive Self-Rewrite and Policy-Refine
+UR  - https://arxiv.org/abs/2610.22192
+L1  - https://arxiv.org/pdf/2610.22192
+DA  - 2026/10/15
+AN  - arXiv:2610.22192
+KW  - RSI
+KW  - General Methods
+N1  - policy/critic跨阶段继承；组件因果归因、task manifest和checkpoint来源尚有限制。
+ER  -
+
+TY  - RPRT
+TI  - ReTerm: Recovery Training for Self-Improving Terminal Agents
+UR  - https://arxiv.org/abs/2610.18484
+L1  - https://arxiv.org/pdf/2610.18484
+DA  - 2026/10/13
+AN  - arXiv:2610.18484
+KW  - RSI
+KW  - General Methods
+N1  - 从自身失败状态分叉学习恢复；待共同失败状态和总预算对照。
+ER  -
+
+TY  - RPRT
+TI  - RSIPO: Recursive Self-Improving Policy Optimization for Agentic Reinforcement Learning via Skill-Policy Co-Evolution
+UR  - https://arxiv.org/abs/2610.15772
+L1  - https://arxiv.org/pdf/2610.15772
+DA  - 2026/10/11
+AN  - arXiv:2610.15772
+KW  - RSI
+KW  - General Methods
+N1  - 技能生成能力与policy共同训练；需区分技能内容变好与未来学习效率提升。
+ER  -
+
+TY  - RPRT
+TI  - AutoSFT: An Agentic System for Automated Data Research in Supervised Fine-Tuning
+UR  - https://arxiv.org/abs/2610.22194
+L1  - https://arxiv.org/pdf/2610.22194
+DA  - 2026/10/15
+AN  - arXiv:2610.22194
+KW  - RSI
+KW  - General Methods
+N1  - 每轮从基座重训；不自动归类累积policy RSI。
+ER  -
+
+TY  - RPRT
+TI  - MLExpert: Towards a Generalist Agentic Model for Autonomous Machine Learning Engineering
+UR  - https://arxiv.org/abs/2610.22344
+L1  - https://arxiv.org/pdf/2610.22344
+DA  - 2026/10/15
+AN  - arXiv:2610.22344
+KW  - RSI
+KW  - General Methods
+N1  - 训练MLE研究能力，并不单独证明模型改进自己的改进器。
+ER  -
+
+TY  - RPRT
+TI  - WorkRover: Scaling Long-Horizon Cowork Agent Training Via Recursive Environment Evolution
+UR  - https://arxiv.org/abs/2610.18067
+L1  - https://arxiv.org/pdf/2610.18067
+DA  - 2026/10/13
+AN  - arXiv:2610.18067
+KW  - RSI
+KW  - General Methods
+N1  - 修复组合依赖闭包重放，保留原任务需求；测过候选中的最小修复非全局最小。
+ER  -
+
+TY  - RPRT
+TI  - SWE-Duel: Towards a Self-Scaling Arena for Coding Agents
+UR  - https://arxiv.org/abs/2610.12569
+L1  - https://arxiv.org/pdf/2610.12569
+DA  - 2026/10/08
+AN  - arXiv:2610.12569
+KW  - RSI
+KW  - Benchmarks
+N1  - 动态对抗出题是评测扩展，不独立证明自改进学习。
+ER  -
+
+TY  - RPRT
+TI  - AgentSafeEvo: Adversarial Co-Evolution for LLM Agent Safety
+UR  - https://arxiv.org/abs/2610.19422
+L1  - https://arxiv.org/pdf/2610.19422
+DA  - 2026/10/14
+AN  - arXiv:2610.19422
+KW  - RSI
+KW  - General Methods
+N1  - attacker-defender co-evolution需独立攻击集和良性任务保持测试。
+ER  -
+
+TY  - RPRT
+TI  - CoDA: Co-Evolution of Data Engines and Action Policies
+UR  - https://arxiv.org/abs/2610.22362
+L1  - https://arxiv.org/pdf/2610.22362
+DA  - 2026/10/15
+AN  - arXiv:2610.22362
+KW  - RSI
+KW  - General Methods
+N1  - 物理因素诊断、生成/训练程序及策略共同演化；需比较相同生成与训练总预算下的独立策略收益。
+ER  -
+
+TY  - RPRT
+TI  - EMHO: EMbodied Agent Harness Optimization via Experience Traces
+UR  - https://arxiv.org/abs/2610.08432
+L1  - https://arxiv.org/pdf/2610.08432
+DA  - 2026/10/06
+AN  - arXiv:2610.08432
+KW  - RSI
+KW  - Embodied RSI
+N1  - 冻结模型，从经验轨迹改harness并处理子任务收益冲突；正文预算待核。
+ER  -
+
+TY  - RPRT
+TI  - CarryOn: A Dual-Loop Harness for Personalized and Reliable Robot Assistance
+UR  - https://arxiv.org/abs/2610.21453
+L1  - https://arxiv.org/pdf/2610.21453
+DA  - 2026/10/15
+AN  - arXiv:2610.21453
+KW  - RSI
+KW  - Embodied RSI
+N1  - 13%到80%涉及累计反思与重试；仿真安全率不混作真机数据。
+ER  -
+
+TY  - RPRT
+TI  - Data-Centric Recursive Self-Improvement for Navigation via Policy-Synchronized Language-Action Dual Bootstrapping
+UR  - https://arxiv.org/abs/2610.15782
+L1  - https://arxiv.org/pdf/2610.15782
+DA  - 2026/10/11
+AN  - arXiv:2610.15782
+KW  - RSI
+KW  - Embodied RSI
+N1  - 共享policy同步生成导航指令并筛选；固定训练循环不自动等于改进器演化。
+ER  -
+
+TY  - RPRT
+TI  - VLAW: Iterative Co-Improvement of Vision-Language-Action Policy and World Model
+UR  - https://arxiv.org/abs/2602.12063
+L1  - https://arxiv.org/pdf/2602.12063
+DA  - 2026/02/12
+AN  - arXiv:2602.12063
+KW  - RSI
+KW  - Embodied RSI
+N1  - VLA/world model共同更新，固定阈值筛选；摘要39.2与表2均值差40.8pp待澄清。
+ER  -
+
+TY  - RPRT
+TI  - Rethinking the Evaluation of Harness Evolution for Agents
+UR  - https://arxiv.org/abs/2607.12227
+L1  - https://arxiv.org/pdf/2607.12227
+DA  - 2026/07/14
+AN  - arXiv:2607.12227
+KW  - RSI
+KW  - Benchmarks
+N1  - 匹配反馈/推理预算并拆分搜索与评测任务；避免把更多尝试当harness收益。
+ER  -
+
+TY  - RPRT
+TI  - Doc2Harness: Benchmarking LLMs on Long-Horizon Harness Engineering of Coding Agents
+UR  - https://arxiv.org/abs/2610.20344
+L1  - https://arxiv.org/pdf/2610.20344
+DA  - 2026/10/14
+AN  - arXiv:2610.20344
+KW  - RSI
+KW  - Benchmarks
+N1  - 19models各3builds，328用例，mock驱动契约测试；非真实agent端到端能力。
+ER  -
+
+TY  - RPRT
+TI  - EmbodiedCLBench: Evaluating Continual Learning for Self-Evolving Embodied Agents
+UR  - https://arxiv.org/abs/2610.13021
+L1  - https://arxiv.org/pdf/2610.13021
+DA  - 2026/10/09
+AN  - arXiv:2610.13021
+KW  - RSI
+KW  - Benchmarks
+N1  - 具身持续学习与组合迁移benchmark；不能称已完成递归改进的方法。
+ER  -
+
+TY  - RPRT
+TI  - CLIFT: Conformal Self-Verification for Web Agent Training and Test-Time Scaling
+UR  - https://arxiv.org/abs/2610.06829
+L1  - https://arxiv.org/pdf/2610.06829
+DA  - 2026/10/05
+AN  - arXiv:2610.06829
+KW  - RSI
+KW  - Verification
+N1  - 已定位正文；conformal假设、覆盖率与online分布变化仍待专项核验。
+ER  -
+
+TY  - RPRT
+TI  - Scalable Weak-to-Strong Verifier Hardening for Agent Environments
+UR  - https://arxiv.org/abs/2610.15924
+L1  - https://arxiv.org/pdf/2610.15924
+DA  - 2026/10/11
+AN  - arXiv:2610.15924
+KW  - RSI
+KW  - Verification
+N1  - hacker-fixer保留补丁，合法解回放与盲解；冻结改进算法不等于学会改进算法。
+ER  -
+
+TY  - RPRT
+TI  - Can an Agent Learn to Predict Its Own Failure? Outcome-Grounded Confidence Calibration in LLM Agents
+UR  - https://arxiv.org/abs/2610.18614
+L1  - https://arxiv.org/pdf/2610.18614
+DA  - 2026/10/13
+AN  - arXiv:2610.18614
+KW  - RSI
+KW  - Verification
+N1  - outcome-grounded confidence需区分任务难度识别与同任务内attempt预测。
+ER  -
+
+TY  - RPRT
+TI  - RSIGym: A Flexible Environment for Recursive Self-Improvement
+UR  - https://arxiv.org/abs/2610.10310
+L1  - https://arxiv.org/pdf/2610.10310
+AN  - arXiv:2610.10310
+KW  - RSI
+KW  - Benchmarks
+N1  - 补充检索，未在保存HF窗口观察到；RSI-Index定义和继承协议待核。
+ER  -
+
+TY  - RPRT
+TI  - GDPevo: Evaluating Agent Self-Evolution on Real Business Tasks
+UR  - https://arxiv.org/abs/2608.03764
+L1  - https://arxiv.org/pdf/2608.03764
+DA  - 2026/08/04
+AN  - arXiv:2608.03764
+KW  - RSI
+KW  - Benchmarks
+N1  - 240任务、24组，每组5train/5test；规则重组测试技能迁移。acc@3为三次平均rubric评分，不是pass@3；测试成本不含技能生成。固定creator下技能变好不足以证明改进器本身演化。
+ER  -
+
+TY  - RPRT
+TI  - From Existing Methods to New Research Ideas: Two Perspectives on Recursive Self-Improvement
+UR  - https://arxiv.org/abs/2610.14625
+L1  - https://arxiv.org/pdf/2610.14625
+DA  - 2026/10/10
+AN  - arXiv:2610.14625
+KW  - RSI
+KW  - Surveys
+N1  - 九维设计分类；首页只按更新对象组织方法，benchmark另按评测模式。借鉴其单一浏览轴，不把反馈、对象、领域混成并列分类。
+ER  -
+
+TY  - RPRT
+TI  - The Path to Recursive Self-Improving Agents: Foundation, Framework, and Future Directions
+UR  - https://www.preprints.org/manuscript/202608.0051/v1
+L1  - https://www.preprints.org/frontend/manuscript/3c41418aa2e782b90ee5da995565ecac/download_pub
+DA  - 2026/08/03
+AN  - preprints:202608.0051
+KW  - RSI
+KW  - Surveys
+N1  - 以harness、data system、trainer及共同改进组织研究；是否修改Imp与组件更新分开。其L1–L5与其他survey定义不同，不合并评级。
+ER  -
+
+TY  - RPRT
+TI  - The Last AI Built by Humans: Toward Genuine Recursive Self-Improvement
+UR  - https://arxiv.org/abs/2609.11873
+L1  - https://arxiv.org/pdf/2609.11873
+DA  - 2026/09/10
+AN  - arXiv:2609.11873
+KW  - RSI
+KW  - Surveys
+N1  - 自治中心的五级框架与改进对象是不同维度。用于澄清递归边界，不据此为所有论文强行分级。所读v1与最新v3区分。
+ER  -
+
+TY  - RPRT
+TI  - Self-Taught Optimizer (STOP): Recursively Self-Improving Code Generation
+UR  - https://arxiv.org/abs/2310.02304
+L1  - https://arxiv.org/pdf/2310.02304
+DA  - 2023/10/03
+AN  - arXiv:2310.02304
+KW  - RSI
+KW  - General Methods
+N1  - 固定LM，improver把自身作为优化对象，用下游改进效用评价新improver；不把代码级自改进等同整个LM系统递归提升。
+ER  -
+
+TY  - RPRT
+TI  - Darwin Godel Machine: Open-Ended Evolution of Self-Improving Agents
+UR  - https://arxiv.org/abs/2505.22954
+L1  - https://arxiv.org/pdf/2505.22954
+DA  - 2025/05/29
+AN  - arXiv:2505.22954
+KW  - RSI
+KW  - General Methods
+N1  - 代理代码参与后续self_modify，archive保留可编辑代码的候选。固定meta-agent消融支持递归路径作用，但作者估计主运行约22kUSD、基线约10k，不把增益称完整等预算因果证据。
+ER  -
+
+TY  - RPRT
+TI  - Self-Adapting Language Models
+UR  - https://arxiv.org/abs/2506.10943
+L1  - https://arxiv.org/pdf/2506.10943
+DA  - 2025/06/12
+AN  - arXiv:2506.10943
+KW  - RSI
+KW  - General Methods
+N1  - SEAL内层使用生成self-edit更新权重，外层RL按更新后效用训练self-edit策略；是学习更新策略的关键参照，不等于已实现开放域长期自主演化。
+ER  -
+
+TY  - RPRT
+TI  - GEPA: Reflective Prompt Evolution Can Outperform Reinforcement Learning
+UR  - https://arxiv.org/abs/2507.19457
+L1  - https://arxiv.org/pdf/2507.19457
+DA  - 2025/07/25
+AN  - arXiv:2507.19457
+KW  - RSI
+KW  - General Methods
+N1  - 轨迹反馈优化prompt并保留候选，反思与Pareto机制固定；用于区分优化执行系统与优化优化器。
+ER  -

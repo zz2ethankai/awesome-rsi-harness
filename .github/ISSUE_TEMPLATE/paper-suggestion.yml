@@ -1,0 +1,46 @@
+name: Paper suggestion
+description: Suggest a paper or original research resource.
+title: "[Paper] "
+body:
+  - type: input
+    id: title
+    attributes:
+      label: Paper title
+    validations:
+      required: true
+  - type: input
+    id: paper
+    attributes:
+      label: Original paper URL
+    validations:
+      required: true
+  - type: dropdown
+    id: domain
+    attributes:
+      label: Section
+      options:
+        - Surveys
+        - Embodied RSI - L0
+        - Embodied RSI - L1
+        - Embodied RSI - L2
+        - Embodied RSI - L3
+        - Embodied RSI - L4
+        - Methods - Model
+        - Methods - Memory and Skills
+        - Methods - Harness
+        - Methods - Data and Environments
+        - Benchmarks
+        - Verification
+    validations:
+      required: true
+  - type: input
+    id: code
+    attributes:
+      label: Official implementation URL, if checked
+  - type: textarea
+    id: evidence
+    attributes:
+      label: Relevance and evidence
+      description: Describe the updated artifact, feedback, persistence, dates, and an evidence limitation.
+    validations:
+      required: true
